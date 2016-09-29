@@ -1,1 +1,1 @@
-"Hello! This is the repository of :Lean Carreon"
+"Hello! This is the repository of :Lean Q. Carreon"
