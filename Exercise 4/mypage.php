@@ -34,7 +34,7 @@ tr:nth-child(even) {
 <body bgcolor="#0E3468">
 <A NAME="Home">
 <center>
-<div> <img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\Finlstep.gif" width="1000px" height="180px"> </div>
+<div> <img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\Finlstep.gif" width="1000px" height="180px"> </div>
 <center>
 <br>
 <center>
@@ -116,27 +116,27 @@ tr:nth-child(even) {
 <div> <font size="36"><h1><big>FAVORITE WEBSITES</big></h1></font></div>
 <ul><li><a href="#Home"><font color="White" align="left" >Home</a></li></ul>
 <p align="left">
-<a href="https://twitter.com/LeanSanity123"><img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\Twitter.png"width=310px" height=310">
+<a href="https://twitter.com/LeanSanity123"><img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\Twitter.png"width=310px" height=310">
 </a>
-<a href="https://www.facebook.com/Wewertt"> <img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\Facebook.jpg"width=310px" height=310"> 
+<a href="https://www.facebook.com/Wewertt"> <img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\Facebook.jpg"width=310px" height=310"> 
 </a>
-<a href="http://moodle2.apc.edu.ph/user/profile.php?id=8229"> <img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\Moodle.png">
+<a href="http://moodle2.apc.edu.ph/user/profile.php?id=8229"> <img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\Moodle.png">
 </a>
 </p>
 <br>
 <A NAME="Hobby"align="left">
 <div> <font size="36"><h1><big>HOBBIES</big></h1></font> </div>
 <ul><li><a href="#Home"><font color="White">Home</a></li></ul>
-<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\Basketball.JPG"width=310px" height=410">
-<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\Dota.jpg"width=510px" height=410">
-<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\workout.jpg"width=330px" height=410">
+<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\Basketball.JPG"width=310px" height=410">
+<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\Dota.jpg"width=510px" height=410">
+<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\workout.jpg"width=330px" height=410">
 <br>
 <A NAME="Interest"align="left">
 <div> <font size="36"><h1><big>INTEREST</big></h1></font> </div>
 <ul><li><a href="#Home"><font color="White">Home</a></li></ul>
-<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\car.JPG"width=410px" height=410">
-<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\shoes.jpg"width=410px" height=410">
-<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 3\Pics\laptop.jpg"width=410px" height=410">
+<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\car.JPG"width=410px" height=410">
+<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\shoes.jpg"width=410px" height=410">
+<img src="C:\Users\Carreon\Desktop\Github\APC_webprog_MI152_test_repo_lqcarreon2\Exercise 4\Pics\laptop.jpg"width=410px" height=410">
 <br>
 <A NAME="About Me"align="left">
 <div> <font size="36"><h1><big>About Me</big></h1></font> </div>
