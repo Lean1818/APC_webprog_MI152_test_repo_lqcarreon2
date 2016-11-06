@@ -63,7 +63,7 @@ if(isset($_POST['btn-save']))
 	</td>
     </tr>
 	<tr>
-    <td><input type="no" name="no" placeholder="Cellphone Number" required /></td>
+    <td><input type="number" name="no" placeholder="Cellphone Number" required /></td>
     </tr>
 	 <td>Comment: <br>
 	 <textarea name="comment" rows="10" cols="100"></textarea>

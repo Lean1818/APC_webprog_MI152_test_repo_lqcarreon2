@@ -86,7 +86,7 @@ if(isset($_POST['btn-cancel']))
 	</td>
     </tr>
 	<tr>
-    <td><input type="no" name="no" placeholder="Cellphone Number" value="<?php echo $fetched_row['no']; ?>" required /></td>
+    <td><input type="number" name="no" placeholder="Cellphone Number" value="<?php echo $fetched_row['no']; ?>" required /></td>
     </tr>
 	 <td>Comment: <br>
 	 <textarea name="comment" rows="10" cols="144"><?php echo $fetched_row['comment']; ?></textarea>
