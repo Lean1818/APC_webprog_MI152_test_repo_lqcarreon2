@@ -29,6 +29,15 @@ tr:nth-child(even) {
 .error {
 	color : red;
 }
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
 </style>
 </head>
 <body bgcolor="#0E3468">
@@ -38,6 +47,7 @@ tr:nth-child(even) {
 <center>
 <br>
 <center>
+<h1><a href="index.php">Create Database</a></h1>
 <h1><font color="White">Lean Nasser Q. Carreon </h1>
 </center>
 <center>
