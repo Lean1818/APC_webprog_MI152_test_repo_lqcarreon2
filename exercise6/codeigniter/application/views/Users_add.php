@@ -19,7 +19,7 @@
 <br>
 <br>
 <tr>
-    <td align="center"><a href="<?php echo base_url(); ?>index.php/users"><u>back to main page</u></a></td>
+    <td align="center"><a href="<?php echo base_url(); ?>index.php/users"><u>Back to Main Page</u></a></td>
     </tr>
     <br>
     <br>
