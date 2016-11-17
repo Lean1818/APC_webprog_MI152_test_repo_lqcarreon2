@@ -43,13 +43,13 @@ a:hover {
 </head>
 	
 <body bgcolor="#0E3468">
-<A NAME="Home">
+<A NAME="Home"><
 <center>
 <div> <img src="<?php echo base_url(); ?>Pics/Finlstep.gif" width="1000px" height="180px"> </div>
 <center>
 <br>
 <center>
-<h1><a href = "<?php echo base_url(); ?>index.php/users/add_view">Create Database</a></h1>
+<h1><a href = "<?php echo base_url(); ?>index.php/users/add_view"><u>Create Database</u></a></h1>
 </center>
       
 		
