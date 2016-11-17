@@ -12,7 +12,7 @@ ul
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 50%;
+}
 }
 td, th {
     border: 1px solid #dddddd;
@@ -42,6 +42,7 @@ a:hover {
 
 .uuu{
 	color: White;
+    width: 60%;
 }
 </style>
 </head>
