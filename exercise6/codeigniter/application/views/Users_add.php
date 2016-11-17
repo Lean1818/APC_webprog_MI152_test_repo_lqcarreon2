@@ -51,8 +51,8 @@
             echo "<br/>"; 
             echo "<br/>"; 
             
-            echo form_label('Sex'); 
-            echo form_input(array('id'=>'sex','name'=>'sex')); 
+            echo form_label('Gender: '); 
+            echo form_input(array('id'=>'Gender','name'=>'Gender')); 
             echo "<br/>"; 
             echo "<br/>"; 
             
