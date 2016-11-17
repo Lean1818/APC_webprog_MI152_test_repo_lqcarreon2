@@ -56,7 +56,7 @@
             echo "<br/>"; 
             echo "<br/>"; 
             
-            echo form_label('Cellphone Number'); 
+            echo form_label('Cellphone Number: '); 
             echo form_input(array('id'=>'no','name'=>'no')); 
             echo "<br/>"; 
             echo "<br/>"; 
