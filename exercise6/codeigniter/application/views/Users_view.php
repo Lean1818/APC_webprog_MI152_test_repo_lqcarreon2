@@ -39,6 +39,10 @@ a{
 a:hover {
 	color: red;
 }
+
+.uuu{
+	color: White;
+}
 </style>
 </head>
 	
@@ -53,7 +57,7 @@ a:hover {
 </center>
       
 		
-      <table border = "1"> 
+      <table class="uuu" border = "1"> 
          <?php 
             $i = 1; 
             echo "<tr>"; 
