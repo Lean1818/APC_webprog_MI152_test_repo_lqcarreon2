@@ -83,9 +83,9 @@ a:hover {
                echo "<td>".$r->sex."</td>"; 
                echo "<td>".$r->no."</td>"; 
                echo "<td><a href = '".base_url()."index.php/users/edit/"
-                  .$r->user_id."'>Edit</a></td>"; 
+                  .$r->user_id."'><u>Edit</u></a></td>"; 
                echo "<td><a href = '".base_url()."index.php/users/delete/"
-                  .$r->user_id."'>Delete</a></td>"; 
+                  .$r->user_id."'><u>Delete</u></a></td>"; 
                echo "<tr>"; 
             } 
          ?>
