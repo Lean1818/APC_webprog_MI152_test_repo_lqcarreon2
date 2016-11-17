@@ -9,18 +9,12 @@ ul
 	{
     list-style-type:none;
 	}
-table {
+.oo {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-}
-}
-td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-}
-tr:nth-child(even) {
-    
 }
 
 #myform {
@@ -43,6 +37,11 @@ a:hover {
 .uuu{
 	color: White;
     width: 60%;
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	border-collapse: collapse;
+	
 }
 </style>
 </head>
@@ -95,7 +94,7 @@ a:hover {
     <center>
 <nav class="nav">
 <ul id="navmenu">
-<table width="500">
+<table class="oo" width="500">
   <tr>
     <th> <button type="button" onclick="document.getElementById('Favorite Websites').style.display='table-cell'">Favorite Websites</button></th>
     <th><button type="button" onclick="document.getElementById('Hobbies').style.display='table-cell'">Hobbies</button></th>
