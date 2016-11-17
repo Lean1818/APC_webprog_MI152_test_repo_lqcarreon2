@@ -102,9 +102,9 @@ a:hover {
     <th><button type="button" onclick="document.getElementById('Interests').style.display='table-cell'">Interest</button></th>
   </tr>
   <tr>
-    <td id="Favorite Websites" style="display:none"><a href="#Favorite Website"><font color="White">Facebook, Twitter, Moodle</td>
-    <td id="Hobbies" style="display:none"><a href="#Hobby"><font color="White">Basketball, Working out, Dota 2</td>
-    <td id="Interests" style="display:none"><a href="#Interest"><font color="White">Cars, Shoes, Laptops</td>
+    <td id="Favorite Websites" style="display:none"><a href="#Favorite Website"><font color="White"><u>Facebook, Twitter, Moodle</u></td>
+    <td id="Hobbies" style="display:none"><a href="#Hobby"><font color="White"><u>Basketball, Working out, Dota 2</u></td>
+    <td id="Interests" style="display:none"><a href="#Interest"><font color="White"><u>Cars, Shoes, Laptops</u></td>
   </tr>
 </table>
   <a href="#Home"><font color="White">Home</a>
