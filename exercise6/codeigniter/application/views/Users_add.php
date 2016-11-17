@@ -26,27 +26,27 @@
          <?php 
             echo form_open('Users_controller/add_student');
             
-            echo form_label('User Id'); 
+            echo form_label('User Id: '); 
             echo form_input(array('id'=>'user_id','name'=>'user_id')); 
             echo "<br/>"; 
             echo "<br/>"; 
 			
-            echo form_label('Complete Name'); 
+            echo form_label('Complete Name: '); 
             echo form_input(array('id'=>'complete_name','name'=>'complete_name')); 
             echo "<br/>"; 
             echo "<br/>"; 
             
-            echo form_label('Nickname'); 
+            echo form_label('Nickname: '); 
             echo form_input(array('id'=>'nick','name'=>'nick')); 
             echo "<br/>"; 
             echo "<br/>"; 
             
-            echo form_label('Email Address'); 
+            echo form_label('Email Address: '); 
             echo form_input(array('id'=>'eadd','name'=>'eadd')); 
             echo "<br/>"; 
             echo "<br/>"; 
             
-			echo form_label('Home Address'); 
+			echo form_label('Home Address: '); 
             echo form_input(array('id'=>'address','name'=>'address')); 
             echo "<br/>"; 
             echo "<br/>"; 
