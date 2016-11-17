@@ -104,7 +104,7 @@ a:hover {
 </table>
   <a href="#Home"><font color="White">Home</a>
   <a href="#About Me"><font color="White">About Me</a>
-  <p><b>Tip:</b> Underlined words are pressable</p>
+  
  
 
 </ul>
@@ -118,7 +118,7 @@ a:hover {
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like shoes!'">Click For A Trivia!</button>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like cars!'">Click For A Trivia!</button>
 
-
+<p><b>Tip:</b> Underlined words are pressable</p>
 
 <br>
 <br>
