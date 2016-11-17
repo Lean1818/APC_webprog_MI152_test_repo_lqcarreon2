@@ -122,7 +122,7 @@ a:hover {
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like shoes!'">Click For A Trivia!</button>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like cars!'">Click For A Trivia!</button>
 
-<p><b>Tip:</b> Underlined words are pressable</p>
+<p><b>Tip:</b> Underlined words are Clickable</p>
 
 <br>
 <br>
