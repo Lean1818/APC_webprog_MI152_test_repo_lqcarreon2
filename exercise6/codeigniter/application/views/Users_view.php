@@ -52,7 +52,25 @@ a:hover {
 <div> <img src="<?php echo base_url(); ?>Pics/Finlstep.gif" width="1000px" height="180px"> </div>
 <center>
 <br>
-<center>
+     <h1><font color="White">Lean Nasser Q. Carreon </h1> 
+    <center>
+<nav class="nav">
+<ul id="navmenu">
+<table class="oo" width="500">
+  <tr>
+    <th> <button type="button" onclick="document.getElementById('Favorite Websites').style.display='table-cell'">Favorite Websites</button></th>
+    <th><button type="button" onclick="document.getElementById('Hobbies').style.display='table-cell'">Hobbies</button></th>
+    <th><button type="button" onclick="document.getElementById('Interests').style.display='table-cell'">Interest</button></th>
+  </tr>
+  <tr>
+    <td id="Favorite Websites" style="display:none"><a href="#Favorite Website"><font color="White"><u>Facebook, Twitter, Moodle</u></td>
+    <td id="Hobbies" style="display:none"><a href="#Hobby"><font color="White"><u>Basketball, Working out, Dota 2</u></td>
+    <td id="Interests" style="display:none"><a href="#Interest"><font color="White"><u>Cars, Shoes, Laptops</u></td>
+  </tr>
+</table>
+  <a href="#Home"><font color="White">Home</a>
+  <a href="#About Me"><font color="White"><u>About Me</u></a>
+  <center>
 <h1><a href = "<?php echo base_url(); ?>index.php/users/add_view"><u>Create Database</u></a></h1>
 </center>
       
@@ -90,27 +108,6 @@ a:hover {
             } 
          ?>
       </table> 
-     <h1><font color="White">Lean Nasser Q. Carreon </h1> 
-    <center>
-<nav class="nav">
-<ul id="navmenu">
-<table class="oo" width="500">
-  <tr>
-    <th> <button type="button" onclick="document.getElementById('Favorite Websites').style.display='table-cell'">Favorite Websites</button></th>
-    <th><button type="button" onclick="document.getElementById('Hobbies').style.display='table-cell'">Hobbies</button></th>
-    <th><button type="button" onclick="document.getElementById('Interests').style.display='table-cell'">Interest</button></th>
-  </tr>
-  <tr>
-    <td id="Favorite Websites" style="display:none"><a href="#Favorite Website"><font color="White"><u>Facebook, Twitter, Moodle</u></td>
-    <td id="Hobbies" style="display:none"><a href="#Hobby"><font color="White"><u>Basketball, Working out, Dota 2</u></td>
-    <td id="Interests" style="display:none"><a href="#Interest"><font color="White"><u>Cars, Shoes, Laptops</u></td>
-  </tr>
-</table>
-  <a href="#Home"><font color="White">Home</a>
-  <a href="#About Me"><font color="White"><u>About Me</u></a>
-  
- 
-
 </ul>
 </nav>
 </center>
