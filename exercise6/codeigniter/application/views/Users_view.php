@@ -63,7 +63,7 @@ a:hover {
             echo "<td>Email Address</td>";
             echo "<td>Home Address</td>";
             echo "<td>Sex</td>"; 
-            echo "<td>Cellphone No</td>"; 
+            echo "<td>Cellphone No.</td>"; 
             echo "<td>Edit</td>"; 
             echo "<td>Delete</td>"; 
             
