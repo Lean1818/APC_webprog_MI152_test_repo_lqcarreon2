@@ -47,7 +47,7 @@ a:hover {
 <center>
 <br>
 <center>
-<h1><a href="index.php">Create Database</a></h1>
+<h1><a href="index.php"><u>Create Database</u></a></h1>
 <h1><font color="White">Lean Nasser Q. Carreon </h1>
 </center>
 <center>
