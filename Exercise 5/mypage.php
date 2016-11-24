@@ -67,13 +67,13 @@ a:hover {
 </table>
   <a href="#Home"><font color="White"><u>Home</u></a>
   <a href="#About Me"><font color="White"><u>About Me</u></a>
-  <p><b>Tip:</b> Underlined words are pressable</p>
+  <p><b>Tip:</b> Underlined words are Clickable</p>
  
 
 </ul>
 </nav>
 </center>
-	Trivia about my Interest/Hobbies or myself
+	Trivia about my Interest/Hobbies or Myself
  <p id="Trivia">Click for a Trivia.</p>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always play Basketball!'">Click For A Trivia!</button>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always play Dota 2'">Click For A Trivia!</button>
