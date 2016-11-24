@@ -43,6 +43,7 @@ if(isset($_POST['btn-save']))
     <table align="center">
     <tr>
     <td align="center"><a href="index.php"><u>Back to Main page</u></a></td>
+	 <align="center"><a href="Mydata.php"><u>Check Database</u></a>
     </tr>
     <tr>
     <td><input type="text" name="complete_name" placeholder="Complete Name" required /></td>
