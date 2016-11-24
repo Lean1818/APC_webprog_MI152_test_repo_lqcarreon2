@@ -36,6 +36,20 @@ article {
     padding: 2em;
     overflow: hidden;
 	}
+#db
+{
+	background-color:Black;
+}
+
+#header
+{
+ width:100%;
+ height:50px;
+ background:Black;
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size:35px;
+ text-align:center;
+}
 </style>
 <script type="text/javascript">
 function edt_id(id)
@@ -59,7 +73,7 @@ function delete_id(id)
 
 <div id="header">
  <div id="content">
-    <label>Database</label>
+    <label id="db">Database</label>
     </div>
 </div>
 
@@ -67,7 +81,7 @@ function delete_id(id)
  <div id="content">
     <table align="center">
     <tr>
-    <th colspan="9"><a href="add_data.php">Add Data here.</a></th>
+    <th colspan="9"><a href="add_data.php"><u>Add Data here.</u></a></th>
     </tr>
     <th>Complete Name</th>
     <th>Nickname</th>
