@@ -133,6 +133,7 @@ a:hover {
 <a href="http://moodle2.apc.edu.ph/user/profile.php?id=8229"> <img src="Pics\Moodle.png">
 </a>
 </p>
+Tip: Click the Picture if you want to be directed to the Website.
 <br>
 <A NAME="Hobby"align="left">
 <div> <font size="36"><h1><big>HOBBIES</big></h1></font> </div>
