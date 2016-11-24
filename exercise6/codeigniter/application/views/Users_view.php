@@ -175,21 +175,21 @@ Tip: Click the Picture if you want to be directed to the Website.
 <br>
 <A NAME="Hobby"align="left">
 <div> <font size="36"><h1><big>HOBBIES</big></h1></font> </div>
-<ul><li><a href="#Home"><font color="White">Home</a></li></ul>
+<ul><li><a href="#Home"><font color="White"><u>Home</u></a></li></ul>
 <img src="<?php echo base_url(); ?>Pics\Basketball.JPG"width=310px" height=410">
 <img src="<?php echo base_url(); ?>Pics\Dota.jpg"width=510px" height=410">
 <img src="<?php echo base_url(); ?>Pics\workout.jpg"width=330px" height=410">
 <br>
 <A NAME="Interest"align="left">
 <div> <font size="36"><h1><big>INTEREST</big></h1></font> </div>
-<ul><li><a href="#Home"><font color="White">Home</a></li></ul>
+<ul><li><a href="#Home"><font color="White"><u>Home</u></a></li></ul>
 <img src="<?php echo base_url(); ?>Pics\car.JPG"width=410px" height=410">
 <img src="<?php echo base_url(); ?>Pics\shoes.jpg"width=410px" height=410">
 <img src="<?php echo base_url(); ?>Pics\laptop.jpg"width=410px" height=410">
 <br>
 <A NAME="About Me"align="left">
 <div> <font size="36"><h1><big>About Me</big></h1></font> </div>
-<ul><li><a href="#Home"><font color="White">Home</a></li></ul>
+<ul><li><a href="#Home"><font color="White"><u>Home</u></a></li></ul>
 <p align="left>
 <br>
 <font size="36"><br></font>
