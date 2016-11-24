@@ -66,7 +66,7 @@ a:hover {
   </tr>
 </table>
   <a href="#Home"><font color="White"><u>Home</u></a>
-  <a href="#About Me"><font color="White">About Me</a>
+  <a href="#About Me"><font color="White"><u>About Me</u></a>
   <p><b>Tip:</b> Underlined words are pressable</p>
  
 
