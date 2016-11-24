@@ -77,7 +77,7 @@ a:hover {
  <p id="Trivia">Click for a Trivia.</p>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always play Basketball!'">Click For A Trivia!</button>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always play Dota 2'">Click For A Trivia!</button>
-<button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always active in Facebook!'">Click For A Trivia!</button>
+<button type="button" onclick="document.getElementById('Trivia').innerHTML = 'Im  always active in Facebook!'">Click For A Trivia!</button>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like shoes!'">Click For A Trivia!</button>
 <button type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like cars!'">Click For A Trivia!</button>
 
