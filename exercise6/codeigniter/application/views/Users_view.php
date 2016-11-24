@@ -68,7 +68,7 @@ a:hover {
     <td id="Interests" style="display:none"><a href="#Interest"><font color="White"><u>Cars, Shoes, Laptops</u></td>
   </tr>
 </table>
-  <a href="#Home"><font color="White">Home</a>
+  <a href="#Home"><font color="White"><u>Home</u></a>
   <a href="#About Me"><font color="White"><u>About Me</u></a>
   <center>
 <h1><a href = "<?php echo base_url(); ?>index.php/users/add_view"><u>Create Database</u></a></h1>
