@@ -92,7 +92,7 @@ function delete_id(id)
 	<th>Comment</th>
     <th colspan="2">Operations</th>
     </tr>
-	<a href="mypage.php">Back to Main page</a>
+	<a href="mypage.php"><u>Back to Main page</u></a>
     <?php
  $sql_query="SELECT * FROM users";
  $result_set=mysql_query($sql_query);
