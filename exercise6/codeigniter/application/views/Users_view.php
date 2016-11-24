@@ -162,7 +162,7 @@ a:hover {
 
 <A NAME ="Favorite Website" align="left">
 <div> <font size="36"><h1><big>FAVORITE WEBSITES</big></h1></font></div>
-<ul><li><a href="#Home"><font color="White" align="left" >Home</a></li></ul>
+<ul><li><a href="#Home"><font color="White" align="left" ><u>Home</u></a></li></ul>
 <p align="left">
 <a href="https://twitter.com/LeanSanity123"><img src="<?php echo base_url(); ?>Pics/Twitter.png"width=310px" height=310">
 </a>
