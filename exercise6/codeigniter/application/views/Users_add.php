@@ -10,59 +10,43 @@
    </head> 
 	<body style="background-image: url(http://localhost/exercise6/codeigniter/Pics/bg.jpg);">
 <center>
-
+<form method="post" action="<?php echo base_url();?>index.php/Users_controller/insert_users_db">
 <div id="header">
  <div id="content">
     <label>Add Data Now</label>
     </div>
 </div>
-<br>
-<br>
-<tr>
-    <td align="center"><a href="<?php echo base_url(); ?>index.php/users"><u>Back to Main Page</u></a></td>
+<div id="body">
+ <div id="content">
+<table align="center">
+    <tr>
+		<td align="center"><a href="<?php echo base_url();?>index.php/Users_controller/">back to main page</a></td>
     </tr>
-    <br>
-    <br>
-         <?php 
-            echo form_open('Users_controller/add_student');
-            
-            echo form_label('User Id: '); 
-            echo form_input(array('id'=>'user_id','name'=>'user_id')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-			
-            echo form_label('Complete Name: '); 
-            echo form_input(array('id'=>'complete_name','name'=>'complete_name')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            echo form_label('Nickname: '); 
-            echo form_input(array('id'=>'nick','name'=>'nick')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            echo form_label('Email Address: '); 
-            echo form_input(array('id'=>'eadd','name'=>'eadd')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-			echo form_label('Home Address: '); 
-            echo form_input(array('id'=>'address','name'=>'address')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            echo form_label('Gender: '); 
-            echo form_input(array('id'=>'Gender','name'=>'Gender')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            echo form_label('Cellphone Number: '); 
-            echo form_input(array('id'=>'no','name'=>'no')); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            echo form_submit(array('id'=>'submit','value'=>'Add')); 
-            echo form_close(); 
-         ?> 
+    <tr>
+    <td><input type="text" name="complete_name" placeholder="Complete Name" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="nick" placeholder="Nickname" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="eadd" placeholder="Email Address" required /></td>
+    </tr>
+	<tr>
+    <td><input type="text" name="address" placeholder="Address" required /></td>
+    </tr>
+	<tr>
+    <td><input type="text" name="sex" placeholder="Gender" required /></td>
+    </tr>
+	<tr>
+    <td><input type="number" name="no" placeholder="Cellphone Number" required /></td>
+	</tr>
+	<tr>
+    <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
+    </tr>
+    </table>
+
+</form>
+    </div>
+</div>
    </body>
 </html>

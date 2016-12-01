@@ -4,79 +4,55 @@
     <head> 
       <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Add Data Page</title>
+<title>Edit Data Page</title>
 <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/style.css">
 </head>
    </head> 
 	<body style="background-image: url(http://localhost/exercise6/codeigniter/Pics/bg.jpg);">
 <center>
 
+<form method="post" action="<?php echo base_url();?>index.php/Users_controller/update">
+<?php
+extract($users);
+?>
 <div id="header">
  <div id="content">
     <label>Edit Data Now</label>
     </div>
 </div>
-<br>
-<br>
-<tr>
-    <td align="center"><a href="<?php echo base_url(); ?>index.php/users">back to main page</a></td>
+<div id="body">
+ <div id="content">
+<table align="center">
+    <tr>
+    <td><input type="text" name="complete_name" placeholder="Complete Name" value="<?php echo $complete_name; ?>" required /></td>
     </tr>
-    <br>
-    <br>
-   <body> 
-      <form method = "" action = "">
-		
-         <?php 
-            echo form_open('Users_controller/update_student'); 
-            echo form_hidden('old_user_id',$old_user_id); 
-            
-            echo form_label('User Id'); 
-            echo form_input(array('id'=>'user_id',
-               'name'=>'user_id','value'=>$records[0]->user_id)); 
-            echo "<br/>"; 
-			echo "<br/>"; 	
-				
-            echo form_label('Complete Name'); 
-            echo form_input(array('id'=>'complete_name','name'=>'complete_name',
-               'value'=>$records[0]->complete_name)); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-			
-			echo form_label('Nickname');
-			echo form_input(array('id'=>'nick','name'=>'nick',
-               'value'=>$records[0]->nick)); 
-			echo "<br/>"; 
-            echo "<br/>"; 
-            
-             echo form_label('Email Address'); 
-            echo form_input(array('id'=>'eadd','name'=>'eadd',
-               'value'=>$records[0]->eadd)); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-				
-				echo form_label('Home Address'); 
-            echo form_input(array('id'=>'address','name'=>'address',
-               'value'=>$records[0]->address)); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            echo form_label('Sex'); 
-            echo form_input(array('id'=>'sex','name'=>'sex',
-               'value'=>$records[0]->sex)); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-              echo form_label('Cellphone Number'); 
-            echo form_input(array('id'=>'no','name'=>'no', 'value'=>$records[0]->no)); 
-            echo "<br/>"; 
-            echo "<br/>"; 
-            
-            
-            echo form_submit(array('id'=>'submit','value'=>'Edit')); 
-            echo form_close();
-         ?> 
-			
-      </form> 
-   </body>
+    <tr>
+    <td><input type="text" name="nick" placeholder="Nickname" value="<?php echo $nick; ?>" required /></td>
+    </tr>
+    <tr>
+    <td><input type="text" name="eadd" placeholder="Email Address" value="<?php echo $eadd; ?>" required /></td>
+    </tr>
+	<tr>
+    <td><input type="text" name="address" placeholder="Home Address" value="<?php echo $address; ?>" required /></td>
+    </tr>
+	<tr>
+    <td><input type="text" name="sex" placeholder="Gender" value="<?php echo $sex; ?>" required /></td>
+    </tr>
+	<tr>
+    <td><input type="number" name="no" placeholder="Cellphone Number" value="<?php echo $no; ?>" required /></td>
+    </tr>
+	<tr>
+	<td>
+	<input type="hidden" name="user_id" value="<?php echo $user_id; ?>" />
+    <button type="submit" name="submit" value="Update" /><strong>UPDATE</strong></button>
+	<a href="<?php echo base_url();?>index.php/Users_controller/"><strong>Cancel</strong></a></button>
+    </td>
+    </tr>
+    </table>
+</div>
+</div>
+</form>
+
+</body>
 	
 </html>
