@@ -57,9 +57,9 @@ window.location="<?php echo base_url();?>index.php/Users_controller/"+act+"/"+go
 }
 </script>
 </head>
-
+<body style="background-image: url(http://localhost/exercise6/codeigniter/Pics/bg.jpg);">
 <body>
-<body bgcolor="#0E3468">
+
 <A NAME="Home">
 <center>
 <div> <img src="<?php echo base_url();?>Pics\Finlstep.gif" width="1000px" height="180px"> </div>
