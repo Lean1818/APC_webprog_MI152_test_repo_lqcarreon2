@@ -62,7 +62,6 @@ window.location="<?php echo base_url();?>index.php/Users_controller/"+act+"/"+go
 
 <A NAME="Home">
 <center>
-<div> <img src="<?php echo base_url();?>Pics\Finlstep.gif" width="1000px" height="180px"> </div>
 <center>
 <br>
 <center>
