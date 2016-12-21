@@ -1,5 +1,4 @@
 
-?>
 <!DOCTYPE html> 
 <html lang = "en">
 
@@ -49,7 +48,6 @@ color: black;
 
 	<title>My Home Page</title>
  
-	<body bgcolor="#0E3468">
 <A NAME="Home">
 <center>
 <center>
