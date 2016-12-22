@@ -73,7 +73,7 @@ color: black;
     <td id="Interests" style="display:none"><a href="#Interest"><font color="White">Cars, Shoes, Laptops</td>
   </tr>
 </table>
-  <a href="#Home"><font color="White">Home</a>
+  <a href="#Home"><font color="White"><u>Home</u></a>
   <a href="#About Me"><font color="White">About Me</a>
   <p><b>Tip:</b> Underlined words are Clickable</p>
  
