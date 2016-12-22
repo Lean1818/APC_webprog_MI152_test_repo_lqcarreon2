@@ -75,7 +75,7 @@ color: black;
 </table>
   <a href="#Home"><font color="White">Home</a>
   <a href="#About Me"><font color="White">About Me</a>
-  <p><b>Tip:</b> Underlined words are pressable</p>
+  <p><b>Tip:</b> Underlined words are Clickable</p>
  
 
 </ul>
