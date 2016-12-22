@@ -60,7 +60,7 @@ color: black;
 <center>
 <br>
 <center>
-<h1><a href = "index.php?r=users%2Findex">Create Database</a></h1>
+<h1><a href = "index.php?r=users%2Findex"><u>Create Database</u></a></h1>
 <h1><font color="White">Lean Nasser Q. Carreon </h1>
 </center>
 <center>
