@@ -129,11 +129,28 @@ color: black;
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <A NAME ="Favorite Website" align="left">
 <div> <font size="36"><h1><big>FAVORITE WEBSITES</big></h1></font></div>
-<ul><li><a href="#Home"><font color="White" align="left" >Home</a></li></ul>
 <p align="left">
+<ul><li><a href="#Home"><font color="White" align="left" >Home</a></li></ul>
+
 <a href="https://twitter.com/LeanSanity123"><img src="uploads\Twitter.png"width=310px" height=310">
 </a>
 <a href="https://www.facebook.com/Wewertt"> <img src="uploads\facebook.jpg"width=310px" height=310"> 
@@ -141,6 +158,20 @@ color: black;
 <a href="http://moodle2.apc.edu.ph/user/profile.php?id=8229"> <img src="uploads/Moodle.png"width=310px" height=310">
 </a>
 </p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <A NAME="Hobby"align="left">
 <div> <font size="36"><h1><big>HOBBIES</big></h1></font> </div>
