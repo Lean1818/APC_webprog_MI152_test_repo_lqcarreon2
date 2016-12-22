@@ -1,4 +1,9 @@
 
+<?php
+/* @var $this yii\web\View */
+use yii\helpers\Html;
+$this->title = 'My Yii Application';
+?>
 <!DOCTYPE html> 
 <html lang = "en">
 
@@ -74,21 +79,47 @@ color: black;
   </tr>
 </table>
   <a href="#Home"><font color="White"><u>Home</u></a>
-  <a href="#About Me"><font color="White">About Me</a>
+  <a href="#About Me"><font color="White"><u>About Me</u></a>
   <p><b>Tip:</b> Underlined words are Clickable</p>
  
 
 </ul>
 </nav>
 </center>
-	Trivia about my Interest/Hobbies or myself
- <p>Click for a Trivia.</p>
-<button class = "Trivia" type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always play Basketball!'">Click For A Trivia!</button>
-<button class = "Trivia"  type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always play Dota 2'">Click For A Trivia!</button>
-<button class = "Trivia"  type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  always active in Facebook!'">Click For A Trivia!</button>
-<button class = "Trivia"  type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like shoes!'">Click For A Trivia!</button>
-<button class = "Trivia"  type="button" onclick="document.getElementById('Trivia').innerHTML = 'I  like cars!'">Click For A Trivia!</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+    $("#show").click(function(){
+        $("answers").toggle(500);
+    });
+});
+</script>
 
+<h1>Trivias</h1>
+<p></p>
+        <?php
+			if (Yii::$app->user->isGuest) {
+				
+			} elseif(Yii::$app->user->identity->username) {
+				echo Html::a('Edit a Trivia', ['trivia/index'], ['class' => 'btn btn-success']);
+			}
+			?>
+
+<br></br>
+<ul>
+<?php foreach ($trivias as $trivia): ?>
+
+    <li>
+        <strong><?= Html::encode("{$trivia->question}") ?>:</strong>
+		<br></br>	
+		<answers style=display:none><?= $trivia->answer ?></answers>
+		<br></br>	
+    </li>	
+<?php endforeach; ?>
+<button class="btn btn-lg btn-success" id="show">Show all answer</button>
+<p></p>
+</ul>
 
 
 <br>
