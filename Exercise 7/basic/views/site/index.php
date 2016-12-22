@@ -3,6 +3,7 @@
 <html lang = "en">
 
 <style>
+
 ul
 	{
     list-style-type:none;
@@ -49,6 +50,7 @@ color: black;
 	<title>My Home Page</title>
  
 <A NAME="Home">
+<body>
 <center>
 <center>
 <br>
@@ -132,11 +134,11 @@ color: black;
 <div> <font size="36"><h1><big>FAVORITE WEBSITES</big></h1></font></div>
 <ul><li><a href="#Home"><font color="White" align="left" >Home</a></li></ul>
 <p align="left">
-<a href="https://twitter.com/LeanSanity123"><img src="uploads/Twitter.png"width=310px" height=310">
+<a href="https://twitter.com/LeanSanity123"><img src="uploads\Twitter.png"width=310px" height=310">
 </a>
-<a href="https://www.facebook.com/Wewertt"> <img src="uploads/Facebook.jpg"width=310px" height=310"> 
+<a href="https://www.facebook.com/Wewertt"> <img src="uploads\facebook.jpg"width=310px" height=310"> 
 </a>
-<a href="http://moodle2.apc.edu.ph/user/profile.php?id=8229"> <img src="uploads/Moodle.png">
+<a href="http://moodle2.apc.edu.ph/user/profile.php?id=8229"> <img src="uploads/Moodle.png"width=310px" height=310">
 </a>
 </p>
 <br>
@@ -152,7 +154,7 @@ color: black;
 <ul><li><a href="#Home"><font color="White">Home</a></li></ul>
 <img src="uploads/car.JPG"width=410px" height=410">
 <img src="uploads/shoes.jpg"width=410px" height=410">
-<img src=" uploads/laptop.jpg"width=410px" height=410">
+<img src="uploads/laptop.jpg"width=410px" height=410">
 <br>
 <A NAME="About Me"align="left">
 <div> <font size="36"><h1><big>About Me</big></h1></font> </div>

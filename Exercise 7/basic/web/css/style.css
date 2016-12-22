@@ -7,9 +7,9 @@
 }
 body
 {
-	color: black;
-
- background:#0E3468;
+	color: white;
+ background-image: url('http://localhost/Exercise 7/basic/web/uploads/bg.jpg');
+    background-repeat: repeat-y;
  font-family:"Courier New", Courier, monospace;
 }
 a {
